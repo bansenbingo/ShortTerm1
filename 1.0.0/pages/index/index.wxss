@@ -1,0 +1,38 @@
+/**index.wxss**/
+.container{
+  text-align: center;
+  margin: 30rpx auto;
+  height: 130rpx;
+}
+.container .text1{
+  font-size: 50rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.container .text2{
+  font-size: 35rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #5D5D5A;
+}
+.action{
+  width: 300rpx;
+  height: 90rpx;
+  margin: 0 auto;
+  line-height:50rpx;
+  text-align: center;
+  color:#FFFFFF;
+  border: 2rpx solid #FD8F78;
+  border-radius: 40rpx;
+  background-color: #FD8F78;
+}
+.Tologin{
+  width: 200rpx;
+  height: 90rpx;
+  border-radius: 40rpx;
+  margin-top: 20rpx;
+  color:#999999;
+}
+page{
+  background-color: #FEE9CE;/**背景色**/
+}

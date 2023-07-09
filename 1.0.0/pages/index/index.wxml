@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="text1">今天吃什么</view>
+  <view class="text2">用几个问题回答您今天吃什么</view>
+</view>
+<view>
+  <button bindtap="start" class="action">点击开始</button>
+  <button bindtap="tologin" class="Tologin">登录获得专属推荐</button>
+</view>

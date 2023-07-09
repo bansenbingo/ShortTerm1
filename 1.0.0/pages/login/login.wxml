@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="input-wrap">
+    <view>用户名:</view>
+<view class='cate1'>
+</view>
+<input value="{{username}}" bindinput="inputUsername" class="info-input"/>
+  </view>
+  <view class="input-wrap">
+    <view class="cate2">
+      <view>密码:</view>
+    </view>
+    <input value="{{password}}" bindinput="inputPassword" class="info-input"/>
+  </view>
+  <button bindtap="login" class="action">登录</button>
+  <view class="container2">
+    <view class="text3">没有账号？</view>
+    <view class="toregister" bindtap="toregister">点击注册</view>
+  </view>
+</view>
