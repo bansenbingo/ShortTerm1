@@ -1,1 +1,24 @@
-还没做好呢
+
+<block wx:if="{{tap===0}}">
+  <button bindtap="breakfast" class="action">早餐</button>
+  <button bindtap="lunch" class="action">午餐</button>
+  <button bindtap="dinner" class="action">晚餐</button>
+  <button bindtap="additional" class="action">加餐</button>
+</block>
+
+<block wx:if="{{tap===1}}">
+  <button bindtap="chinese" class="cuisine">中式</button>
+  <button bindtap="western" class="cuisine">非中式</button>
+</block>
+
+<block wx:if="{{tap===2}}">
+  <button bindtap="maincourse" class="main">需要主食（米饭、面食、杂粮）</button>
+  <button bindtap="notmain" class="main1">不需主食</button>
+  <button bindtap="any_main" class="main1">都可以</button>
+</block>
+
+<block wx:if="{{tap===3}}">
+  <button bindtap="hot" class="temp">热的</button>
+  <button bindtap="cold" class="temp">冷的</button>
+  <button bindtap="any_temp" class="temp">都可以</button>
+</block>

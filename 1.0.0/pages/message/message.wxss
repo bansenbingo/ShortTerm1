@@ -2,3 +2,15 @@
 page{
   background-color: #FEE9CE;/**背景色**/
 }
+
+.action{
+  height: 90rpx;
+  margin: 200px auto;
+  line-height:50rpx;
+  text-align: center;
+  color:#FFFFFF;
+  border: 2rpx solid #FD8F78;
+  border-radius: 40rpx;
+  background-color: #FD8F78;
+}
+

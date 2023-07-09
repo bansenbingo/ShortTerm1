@@ -1,2 +1,2 @@
 <!--pages/message/message.wxml-->
-<view class="headline">zhe</view>
+<button bindtap="start" class="action">点击答题</button>

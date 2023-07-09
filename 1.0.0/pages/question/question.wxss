@@ -1,1 +1,58 @@
 /* pages/question/question.wxss */
+page{
+  background-color: #FEE9CE;/**背景色**/
+}
+
+.action{
+  height: 90rpx;
+  margin: 50px auto;
+  line-height:50rpx;
+  text-align: center;
+  color:#FFFFFF;
+  border: 2rpx solid #FD8F78;
+  border-radius: 40rpx;
+  background-color: #FD8F78;
+}
+
+.cuisine{
+  height: 90rpx;
+  margin: 100px auto;
+  line-height:50rpx;
+  text-align: center;
+  color:#FFFFFF;
+  border: 2rpx solid #FD8F78;
+  border-radius: 40rpx;
+  background-color: #FD8F78;
+}
+
+.main{
+  height: 140rpx;
+  margin: 80px auto;
+  line-height:40rpx;
+  text-align: center;
+  color:#FFFFFF;
+  border: 2rpx solid #FD8F78;
+  border-radius: 40rpx;
+  background-color: #FD8F78;
+}
+.main1{
+  height: 90rpx;
+  margin: 40px auto;
+  line-height:50rpx;
+  text-align: center;
+  color:#FFFFFF;
+  border: 2rpx solid #FD8F78;
+  border-radius: 40rpx;
+  background-color: #FD8F78;
+}
+
+.temp{
+  height: 90rpx;
+  margin: 60px auto;
+  line-height:50rpx;
+  text-align: center;
+  color:#FFFFFF;
+  border: 2rpx solid #FD8F78;
+  border-radius: 40rpx;
+  background-color: #FD8F78;
+}

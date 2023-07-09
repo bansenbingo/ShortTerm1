@@ -24,6 +24,11 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    bre:0,
+    cuisine:0,
+    main:0,
+    temp:0,
+    taste:0
   }
 })
