@@ -6,7 +6,7 @@ AV.setAdapters(adapters);
 AV.init({
   appId: 'Ry2BdlqaMIQuBx0gdhnQy153-gzGzoHsz',
   appKey: 'kGMYw0pMBeq1Yl0rcLemhZNc',
-  // 请将 xxx.example.com 替换为你的应用绑定的自定义 API 域名
+ 
   serverURLs: "https://ry2bdlqa.lc-cn-n1-shared.com",
 });
 App({
